@@ -25,7 +25,7 @@ dp = Dispatcher()
 social_credit_db = {}
 
 # Разрешенный пользователь
-ALLOWED_USER = "@Zhdanov_Albert"
+ALLOWED_USER = "@Username"
 
 def is_user_allowed(user: types.User):
     """Проверяет, имеет ли пользователь права доступа"""
